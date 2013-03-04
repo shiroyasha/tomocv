@@ -5,12 +5,12 @@
 *******************************************/
 
 body {
-    margin: 0px;
-    font-family: 'Cherry Swash', cursive;
+    margin: 0px; /* the body may have a margin, set it to zero */
+    font-family: 'Cherry Swash', cursive; /* google web fonts */
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* removes the underline from links */
     color: #E38402;
 }
 
@@ -57,7 +57,7 @@ a {
     font-size: 1.3em;
 }
 
-.row.info > table tr :first-child {
+.row.info > table tr :first-child { /* selecting the first column, in other words the first thing in every row ;P */
     text-align: right;
 }
 
@@ -125,8 +125,8 @@ a {
 *******************************************/
 
 .row.decoration {
-    background-image: url('../img/pattern.png');
-    background-repeat: repeat-x;
+    background-image: url('../img/pattern.png'); /* relative path to image */
+    background-repeat: repeat-x; /* repeats the image horizontaly */ 
     height: 15px;
 }
 
