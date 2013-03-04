@@ -1,0 +1,137 @@
+/******************************************
+    color schemes
+    http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_.
+    http://www.colourlovers.com/palette/2726613/Enrique
+*******************************************/
+
+body {
+    margin: 0px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #E38402;
+}
+
+/******************************************
+    header
+*******************************************/
+
+.header h1 {
+    font-size: 6em;
+    margin: 0px;
+
+    text-align: center;
+    color: #F2E9E1;
+}
+
+.header h1 span {
+    color: #E38402;
+}
+
+.header h2 {
+    font-size: 2em;
+    margin: 0px;
+
+    text-align: center;
+    color: #F2E9E1;
+}
+
+.row.header {
+    background-color: #1C140D;
+    padding: 40px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+/******************************************
+    info
+*******************************************/
+
+.row.info > table {
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.row.info > table tr :first-child {
+    text-align: right;
+}
+
+.row.info > table td {
+    color: #F2E9E1;
+    padding: 3px;
+}
+
+.row.info {
+    padding-bottom: 30px;
+
+    background-color: #1C140D;
+}
+
+
+
+/******************************************
+    images
+*******************************************/
+.row.images ul {
+    text-align: center;
+    padding-left: 0px;
+}
+
+.row.images li {
+    list-style: none;
+
+    display: inline;
+    margin: 40px;
+}
+
+.row.images li img {
+    border: 20px solid #1C140D;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.row.images {
+    padding: 30px;
+    background-color: #ECB62F;
+}
+
+
+
+
+/******************************************
+    footer
+*******************************************/
+
+.row.footer {
+    color: #F2E9E1;
+    background-color: #1C140D;
+    padding: 40px;
+
+    text-align: center;
+}
+
+
+
+
+
+/******************************************
+    decoration
+*******************************************/
+
+.row.decoration {
+    background-image: url('../img/pattern.png');
+    background-repeat: repeat-x;
+    height: 15px;
+}
+
+.row.decoration2 {
+    background-image: url('../img/pattern2.png');
+    background-repeat: repeat-x;
+    height: 15px;
+}
